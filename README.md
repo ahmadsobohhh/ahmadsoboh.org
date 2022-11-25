@@ -1,2 +1,2 @@
 # ahmadsoboh
-Personal projects, achievements, and work experience by Ahmad Soboh
+Ahmad Soboh's personal website. (Please give me a job)
