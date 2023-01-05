@@ -29,4 +29,4 @@ I'm a Software Engineering student at the University of Ottawa
 ![](https://github-profile-trophy.vercel.app/?username=ahmadsobohhh&theme=onedark&no-frame=true&no-bg=true&margin-w=4)
 
 ---
-[![](https://visitcount.itsvg.in/api?id=arcanistzed&icon=1&color=6)](https://visitcount.itsvg.in)
+[![](https://visitcount.itsvg.in/api?id=ahmadsbooh&label=Profile%20Views&color=6&icon=1&pretty=false)](https://visitcount.itsvg.in)
