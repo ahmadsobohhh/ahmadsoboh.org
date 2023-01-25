@@ -18,3 +18,24 @@ h1 {text-align: center;}
    right:0;
   }
 </style>
+
+/* CSS file - styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+.header {
+  text-align: center;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+h2, h3 {
+  font-weight: bold;
+}
+
