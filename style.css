@@ -53,6 +53,7 @@ body {
   overflow: hidden;
   margin: 0 auto;
   text-align: center;
+  border-radius: 10px;
 }
 
 #text {
