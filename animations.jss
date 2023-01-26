@@ -1,4 +1,1 @@
-const text = ["Hello", "World", "Welcome", "to", "my", "website"]
-
-
-
+const text = ["With", "a", "purpose-driven", "heart", "and", "a", "steadfast", "will,", "I", "shall", "pave", "the", "way", "for", "a", "brighter", "tomorrow,", "For", "the", "world", "and", "its", "people,", "I", "shall", "tirelessly", "toil,", "Great", "deeds", "and", "legacies,", "I", "shall", "borrow."]
