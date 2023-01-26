@@ -12,7 +12,7 @@ h1 {
 .center-text {
     position: absolute;
     left: 15%;
-    top: 40%; /* move down from the H1 element */
+    top: 30%; /* move down from the H1 element */
     text-align: left;
     font-size: 1em;
     line-height: 1.5;
