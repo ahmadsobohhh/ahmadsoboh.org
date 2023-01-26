@@ -31,5 +31,18 @@
       loop: true
     });
   </script>
+    
+    <div id="coordinates"></div>
+
+<script>
+// Get the coordinates element
+var coordinates = document.getElementById("coordinates");
+
+// Add an event listener for the mousemove event
+document.addEventListener("mousemove", function(event) {
+  // Update the coordinates element with the current cursor position
+  coordinates.innerHTML = "X: " + event.clientX + ", Y: " + event.clientY;
+});
+</script>
 </body>
 </html>
