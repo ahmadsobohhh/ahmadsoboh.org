@@ -1,41 +1,41 @@
-  
-<style>
-h1 {text-align: center;}
-</style>
-  
-<style type="text/css">
- .topleft{
-   position:absolute;
-   top:0;
-   left:0;
-  }
-</style>
-
-<style type="text/css">
- .topright{
-   position:absolute;
-   top:0;
-   right:0;
-  }
-</style>
-
-/* CSS file - styles.css */
-
 body {
-  font-family: Times New Roman, sans-serif;
-  font-size: 16px;
+    background-color: #101010;
+    font-family: Arial, sans-serif;
 }
 
-.header {
-  text-align: center;
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 4em;
+    margin-top: 10%;
+    text-shadow: 2px 2px 2px #333;
 }
 
-.title {
-  font-size: 36px;
-  font-weight: bold;
+h2 {
+    color: #808080;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 1.5em;
+    font-style: italic;
 }
 
-h2, h3 {
-  font-weight: bold;
+.btn {
+    background-color: #0077c9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    margin: 2% 0;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px #333;
+    transition: all 0.2s ease;
 }
 
+.btn:hover {
+    background-color: #005580;
+    cursor: pointer;
+    transform: translateY(-2px);
+    box-shadow: 4px 4px 4px #333;
+}
