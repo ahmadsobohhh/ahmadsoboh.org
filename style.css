@@ -1,13 +1,18 @@
 body {
+    position: relative;
     background-color: #101010;
     font-family: Arial, sans-serif;
 }
 
 h1 {
+    position: absolute;
+    left: 40%;
+    top: 10%;
     color: white;
     text-align: center;
     font-size: 4em;
-    margin-top: 10%;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
     text-shadow: 2px 2px 2px #333;
 }
 
