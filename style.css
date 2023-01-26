@@ -25,9 +25,6 @@ body {
 }
 
 .btn {
-    position: absolute;
-    left: 25%
-    top: 40%
     background-color: #0077c9;
     color: white;
     border: none;
