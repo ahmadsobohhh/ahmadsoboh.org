@@ -21,7 +21,7 @@ h1 {
 body {
     background-color: #000000; 
     font-family: 'Roboto Mono', monospace;
-    color: gray; /* same color as H2 */
+    color: white; /* same color as H2 */
 }
 
 .btn {
@@ -71,22 +71,3 @@ span {
   animation: text-animation 5s linear infinite;
   text-shadow: 1px 1px 2px #333;
 }
-
-
-@keyframes text-animation {
-  0% {
-    opacity: 0;
-  }
-  10% {
-    opacity: 1;
-  }
-  25% {
-    color: blue;
-  }
-  50% {
-    color: initial;
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-  }
