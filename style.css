@@ -37,7 +37,24 @@ body {
     box-shadow: 2px 2px 2px #333;
     transition: all 0.2s ease;
     position: absolute;
-    left: 100px;
+    left: 150px;
+    bottom: 300px;
+}
+
+.btn {
+    background-color: #0077c9;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    margin: 2% 0;
+    text-align: right;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px #333;
+    transition: all 0.2s ease;
+    position: absolute;
+    left: 300px;
     bottom: 300px;
 }
 
