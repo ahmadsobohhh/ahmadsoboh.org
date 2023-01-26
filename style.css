@@ -1,6 +1,6 @@
 h1 {
     position: absolute;
-    left: 30%; /* move 50% more to the left */
+    left: 15%; /* move 50% more to the left */
     top: 20%;
     color: white;
     text-align: center;
@@ -11,10 +11,10 @@ h1 {
 
 .center-text {
     position: absolute;
-    left: 30%;
+    left: 15%;
     top: 40%; /* move down from the H1 element */
     text-align: center;
-    font-size: 2em;
+    font-size: 1em;
     line-height: 1.5;
 }
 
