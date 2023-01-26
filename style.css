@@ -76,7 +76,7 @@ span {
   width: 400px;
   height: 200px;
   overflow: hidden;
-  margin: 0 auto;
+  margin: 50px auto;
   text-align: left;
   border-radius: 10px;
 }
