@@ -62,6 +62,7 @@ body {
   margin: 0;
   padding: 70px 0;
   animation: text-animation 5s linear infinite;
+  text-shadow: 1px 1px 2px #333;
 }
 
 
