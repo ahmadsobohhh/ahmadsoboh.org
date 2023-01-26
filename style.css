@@ -56,12 +56,14 @@ body {
 }
 
 #text {
+  color: white;
   font-size: 36px;
   font-weight: bold;
   margin: 0;
   padding: 70px 0;
   animation: text-animation 5s linear infinite;
 }
+
 
 @keyframes text-animation {
   0% {
