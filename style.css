@@ -73,12 +73,12 @@ span {
 
 .textbox {
   background-color: #0F0F0F;
-  width: 660px;
-  height: 225px;
+  width: 400px;
+  height: 400px;
   overflow: hidden;
   position: absolute;
-  left: 400px;
-  bottom: 300px;
+  left: 660px;
+  bottom: 225px;
   text-align: left;
   border-radius: 10px;
 }
