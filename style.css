@@ -12,7 +12,7 @@ h1 {
 .center-text {
     position: absolute;
     left: 15%;
-    top: 25%; /* move down from the H1 element */
+    top: 30%; /* move down from the H1 element */
     text-align: left;
     font-size: 1em;
     line-height: 1.5;
@@ -26,8 +26,8 @@ body {
 
 .btn {
     position: absolute;
-    left: 15%
-    top: 30%
+    left: 25%
+    top: 40%
     background-color: #0077c9;
     color: white;
     border: none;
