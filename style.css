@@ -77,8 +77,8 @@ span {
   height: 200px;
   overflow: hidden;
   position: absolute;
-  left: 400;
-  bottom: 300;
+  left: 400px;
+  bottom: 300px;
   text-align: left;
   border-radius: 10px;
 }
