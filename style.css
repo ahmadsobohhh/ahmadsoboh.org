@@ -6,7 +6,7 @@ body {
 
 h1 {
     position: absolute;
-    left: 30%; /* move 50% more to the left */
+    left: 20%; /* move 50% more to the left */
     top: 10%;
     color: white;
     text-align: center;
@@ -17,8 +17,8 @@ h1 {
 }
 h2 {
     position: absolute;
-    left: 30%;
-    top: 30%; /* move down from the H1 element */
+    left: 20%;
+    top: 40%; /* move down from the H1 element */
     color: gray;
     text-align: center;
     font-size: 2em;
