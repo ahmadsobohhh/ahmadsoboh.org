@@ -26,17 +26,16 @@ body {
 
 .btn {
     background-color: #0077c9;
-    color: white;
+    color: black;
     border: none;
     padding: 10px 20px;
     font-size: 1em;
     margin: 2% 0;
-    text-align: center;
+    text-align: right;
     text-decoration: none;
     border-radius: 8px;
     box-shadow: 2px 2px 2px #333;
     transition: all 0.2s ease;
-    transform: translate(300px, 50px);
 }
 
 span {
@@ -58,7 +57,7 @@ span {
   height: 200px;
   overflow: hidden;
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
   border-radius: 10px;
 }
 
