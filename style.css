@@ -37,8 +37,8 @@ body {
     box-shadow: 2px 2px 2px #333;
     transition: all 0.2s ease;
     position: relative;
-    right: 100px;
-    bottom: 200px;
+    right: -100px;
+    bottom: -200px;
 }
 
 span {
@@ -55,7 +55,7 @@ span {
 /* CSS file - styles.css */
 
 .textbox {
-  background-color: #080808;
+  background-color: #0F0F0F;
   width: 400px;
   height: 200px;
   overflow: hidden;
