@@ -36,6 +36,9 @@ body {
     border-radius: 8px;
     box-shadow: 2px 2px 2px #333;
     transition: all 0.2s ease;
+    position: relative;
+    right: 100px;
+    bottom: 200px;
 }
 
 span {
