@@ -22,16 +22,9 @@ body {
     background-color: #000000; 
     font-family: 'Roboto Mono', monospace;
     color: gray; /* same color as H2 */
-    position: absolute;
-    left: 30%;
-    top: 40%; /* move down from the H1 element */
-    text-align: center;
-    font-size: 2em;
-    line-height: 1.5;
 }
 
-
-a.btn {
+.btn {
     background-color: #0077c9;
     color: white;
     border: none;
@@ -45,5 +38,45 @@ a.btn {
     transition: all 0.2s ease;
 }
 
-a.btn:hover {
+.btn:hover {
     background-color: #005580;
+    cursor: pointer;
+    transform: translateY(-2px);
+    box-shadow: 4px 4px 4px #333;
+}
+
+/* CSS file - styles.css */
+
+.textbox {
+  width: 500px;
+  height: 200px;
+  overflow: hidden;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#text {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  padding: 70px 0;
+  animation: text-animation 5s linear infinite;
+}
+
+@keyframes text-animation {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  25% {
+    color: blue;
+  }
+  50% {
+    color: initial;
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
