@@ -35,14 +35,25 @@
     <div id="coordinates"></div>
 
 <script>
-// Get the coordinates element
-var coordinates = document.getElementById("coordinates");
+  // Get the coordinates element
+  var coordinates = document.getElementById("coordinates");
 
-// Add an event listener for the mousemove event
-document.addEventListener("mousemove", function(event) {
+  // Add an event listener for the mousemove event
+  document.addEventListener("mousemove", function(event) {
   // Update the coordinates element with the current cursor position
   coordinates.innerHTML = "X: " + event.clientX + ", Y: " + event.clientY;
 });
 </script>
+    
+<style>
+#coordinates {
+    position:fixed;
+    bottom:0;
+    left:0;
+    background-color:white;
+    padding:5px;
+}
+</style>
+    
 </body>
 </html>
