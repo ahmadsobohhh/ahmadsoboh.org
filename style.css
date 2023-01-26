@@ -1,12 +1,12 @@
 body {
-    position: relative;
-    background-image: linear-gradient(to bottom, #3b3b3b, #101010);
+    background-color: #101010;
     font-family: 'Roboto Mono', monospace;
 }
 
+
 h1 {
     position: absolute;
-    left: 40%;
+    left: 30%; /* move 50% more to the left (test) */
     top: 10%;
     color: white;
     text-align: center;
@@ -17,12 +17,15 @@ h1 {
 }
 
 h2 {
-    color: #808080;
+    position: absolute;
+    left: 40%;
+    top: 20%; /* move down from the H1 element */
+    color: gray;
     text-align: center;
-    margin-top: 2%;
-    font-size: 1.5em;
-    font-style: italic;
+    font-size: 2em;
+    font-family: 'Roboto Mono', monospace;
 }
+
 
 .btn {
     background-color: #0077c9;
