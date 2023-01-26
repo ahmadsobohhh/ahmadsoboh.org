@@ -12,7 +12,7 @@ h1 {
 .center-text {
     position: absolute;
     left: 15%;
-    top: 30%; /* move down from the H1 element */
+    top: 40%; /* move down from the H1 element */
     text-align: left;
     font-size: 1em;
     line-height: 1.5;
@@ -36,10 +36,11 @@ body {
     border-radius: 8px;
     box-shadow: 2px 2px 2px #333;
     transition: all 0.2s ease;
+    transform: translate(100px, 50px);
 }
 
 span {
-    color: #fff273
+    color: #FFFFFF
 }
 
 .btn:hover {
@@ -52,8 +53,8 @@ span {
 /* CSS file - styles.css */
 
 .textbox {
-  background-color: #2b323c;
-  width: 500px;
+  background-color: #080808;
+  width: 400px;
   height: 200px;
   overflow: hidden;
   margin: 0 auto;
