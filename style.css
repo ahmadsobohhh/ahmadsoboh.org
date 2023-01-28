@@ -45,7 +45,7 @@ body {
     box-shadow: 2px 2px 2px #333;
     transition: all 0.2s ease;
     position: absolute;
-    left: 35vw;
+    left: 27.5vw;
     bottom: 35vh;
 }
 
@@ -86,12 +86,12 @@ span {
 
 .textbox {
   background-color: #0F0F0F;
-  width: 25vw;
-  height: 40vh;
+  width: 40vw;
+  height: 50vh;
   overflow: hidden;
   position: absolute;
   left: 45vw;
-  bottom: 22.5vh;
+  bottom: 27.5vh;
   text-align: left;
   border-radius: 10px;
 }
