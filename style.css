@@ -45,8 +45,8 @@ body {
     box-shadow: 2px 2px 2px #333;
     transition: all 0.2s ease;
     position: absolute;
-    left: 25vw;
-    bottom: 30vh;
+    left: 35vw;
+    bottom: 35vh;
 }
 
 .btn1 {
@@ -63,7 +63,7 @@ body {
     transition: all 0.2s ease;
     position: absolute;
     left: 15vw;
-    bottom: 30vh;
+    bottom: 35vh;
 }
 
 span {
@@ -86,11 +86,11 @@ span {
 
 .textbox {
   background-color: #0F0F0F;
-  width: 50vw;
+  width: 25vw;
   height: 40vh;
   overflow: hidden;
   position: absolute;
-  left: 66vw;
+  left: 45vw;
   bottom: 22.5vh;
   text-align: left;
   border-radius: 10px;
