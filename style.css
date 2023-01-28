@@ -1,10 +1,10 @@
 h1 {
     position: absolute;
-    left: 15%; /* move 50% more to the left */
-    top: 20%;
+    left: 15vw; /* move 50% more to the left */
+    top: 20vh;
     color: white;
     text-align: left;
-    font-size: 4em;
+    font-size: 4vw;
     font-weight: bold;
     text-shadow: 2px 2px 2px #333;
 }
@@ -12,17 +12,17 @@ h1 {
 h2 {
     color: white;
     text-align: left;
-    font-size: 4em;
+    font-size: 4vw;
     font-weight: normal;
     text-shadow: 2px 2px 2px #333;
 }
 
 .center-text {
     position: absolute;
-    left: 15%;
-    top: 40%; /* move down from the H1 element */
+    left: 15vw;
+    top: 40vh; /* move down from the H1 element */
     text-align: left;
-    font-size: 1em;
+    font-size: 1vw;
     line-height: 1.5;
 }
 
@@ -36,8 +36,8 @@ body {
     background-color: #0095fb;
     color: black;
     border: none;
-    padding: 10px 20px;
-    font-size: 1em;
+    padding: 1vw 2vw;
+    font-size: 1vw;
     margin: 2% 0;
     text-align: right;
     text-decoration: none;
@@ -45,16 +45,16 @@ body {
     box-shadow: 2px 2px 2px #333;
     transition: all 0.2s ease;
     position: absolute;
-    left: 400px;
-    bottom: 300px;
+    left: 25vw;
+    bottom: 30vh;
 }
 
 .btn1 {
     background-color: #0095fb;
     color: black;
     border: none;
-    padding: 10px 20px;
-    font-size: 1em;
+    padding: 1vw 2vw;
+    font-size: 1vw;
     margin: 2% 0;
     text-align: right;
     text-decoration: none;
@@ -62,8 +62,8 @@ body {
     box-shadow: 2px 2px 2px #333;
     transition: all 0.2s ease;
     position: absolute;
-    left: 220px;
-    bottom: 300px;
+    left: 15vw;
+    bottom: 30vh;
 }
 
 span {
@@ -86,24 +86,24 @@ span {
 
 .textbox {
   background-color: #0F0F0F;
-  width: 500px;
-  height: 400px;
+  width: 50vw;
+  height: 40vh;
   overflow: hidden;
   position: absolute;
-  left: 660px;
-  bottom: 225px;
+  left: 66vw;
+  bottom: 22.5vh;
   text-align: left;
   border-radius: 10px;
 }
 
 #text {
-  color: white;
-  font-size: 36px;
-  font-weight: bold;
-  margin: 0;
-  padding: 70px 0;
-  animation: text-animation 5s linear infinite;
-  text-shadow: 1px 1px 2px #333;
+    color: white;
+    font-size: 3vw; /* changed from 36px */
+    font-weight: bold;
+    margin: 0;
+    padding: 7vh 0;
+    animation: text-animation 5s linear infinite;
+    text-shadow: 1px 1px 2px #333;
 }
 
 .about-me-header {
