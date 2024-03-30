@@ -45,7 +45,7 @@ body {
     box-shadow: 2px 2px 2px #333;
     transition: all 0.2s ease;
     position: absolute;
-    left: 27.5vw;
+    left: 30vw;
     bottom: 35vh;
 }
 
@@ -62,8 +62,25 @@ body {
     box-shadow: 2px 2px 2px #333;
     transition: all 0.2s ease;
     position: absolute;
-    left: 15vw;
+    left: 17.5vw;
     bottom: 35vh;
+}
+
+.btn2 {
+    background-color: #0095fb;
+    color: black;
+    border: none;
+    padding: 1vw 2vw;
+    font-size: 1vw;
+    margin: 2% 0;
+    text-align: right;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px #333;
+    transition: all 0.2s ease;
+    position: absolute;
+    left: 23vw;
+    bottom: 25vh;
 }
 
 span {
@@ -78,6 +95,13 @@ span {
 }
 
 .btn1:hover {
+    background-color: #005580;
+    cursor: pointer;
+    transform: translateY(-2px);
+    box-shadow: 4px 4px 4px #333;
+}
+
+.btn2:hover {
     background-color: #005580;
     cursor: pointer;
     transform: translateY(-2px);
