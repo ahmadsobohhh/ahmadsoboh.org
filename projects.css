@@ -1,6 +1,6 @@
 h1 {
     color: white;
-    text-align: left;
+    text-align: center;
     font-size: 4vw;
     font-weight: bold;
     text-shadow: 2px 2px 2px #333;
@@ -19,13 +19,15 @@ h2 {
     color: black;
     border: none;
     padding: 1vw 2vw;
+    margin-left: 2vw;
     font-size: 1vw;
-    margin: 2% 0;
     text-align: right;
     text-decoration: none;
     border-radius: 8px;
     box-shadow: 2px 2px 2px #333;
     transition: all 0.2s ease;
+    position: absolute;
+    top: 3vh;
 }
 
 .btn:hover {
@@ -39,4 +41,41 @@ body {
     background-color: #000000; 
     font-family: 'Roboto Mono', monospace;
     color: white; /* same color as H2 */
+}
+
+.project {
+    background-color: #333;
+    padding: 10px;
+    border-radius: 15px;
+    width: 30%;
+    margin: 20px;
+    display: flex; /* Display as flex container */
+    overflow: hidden; /* Hide overflowing content */
+    position: relative; /* Position for absolute elements */
+    transition: all 0.2s ease; /* Transition effect */
+}
+
+.image-placeholder {
+    background-color: #666; /* Placeholder color */
+    width: 100%; /* Full width */
+    height: 50%; /* Half height for the image */
+    border-radius: 8px 8px 0 0; /* Rounded corners for top */
+}
+
+.text {
+    padding: 20px;
+    width: 100%; /* Full width */
+    height: 50%; /* Half height for the text */
+}
+
+.project:hover {
+    filter: brightness(150%); /* Lighten project box on hover */
+}
+
+.projects {
+    display: flex; /* Display as flex container */
+    flex-wrap: wrap; /* Wrap items to next row */
+    justify-content: space-around; /* Center-align items with space between */
+    border-radius: 15px;
+    height: auto; /* Set height as needed */
 }
