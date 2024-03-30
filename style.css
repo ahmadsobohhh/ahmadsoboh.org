@@ -94,6 +94,7 @@ span {
   bottom: 27.5vh;
   text-align: left;
   border-radius: 10px;
+  padding: 10px;
 }
 
 #text {
