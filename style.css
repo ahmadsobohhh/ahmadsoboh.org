@@ -136,3 +136,24 @@ span {
     top: 50vh;
     text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 30px; /* Example size for h1 on smaller screens */
+    }
+
+    .textbox {
+        width: 400px; /* Example width for .textbox on smaller screens */
+    }
+
+    /* Set widths for other divs */
+    .center-text {
+        width: 80%; /* Example width for .center-text on smaller screens */
+    }
+
+    .btn, .btn1, .btn2 {
+        width: 80%; /* Example width for .btn, .btn1, .btn2 on smaller screens */
+    }
+
+    /* Add more specific styles for other elements as needed */
+}
