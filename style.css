@@ -20,7 +20,7 @@ h2 {
 .center-text {
     position: absolute;
     left: 15vw;
-    top: 40vh; /* move down from the H1 element */
+    top: 40vh;
     text-align: left;
     font-size: 1vw;
     line-height: 1.5;
@@ -29,7 +29,7 @@ h2 {
 body {
     background-color: #000000; 
     font-family: 'Roboto Mono', monospace;
-    color: white; /* same color as H2 */
+    color: white;
 }
 
 .btn {
@@ -84,7 +84,7 @@ body {
 }
 
 span {
-    color: #000000
+    color: #0F0F0F;
 }
 
 .btn:hover {
@@ -139,21 +139,19 @@ span {
 
 @media only screen and (max-width: 600px) {
     h1 {
-        font-size: 50px; /* Example size for h1 on smaller screens */
+        font-size: 3px;
     }
 
     .textbox {
-        width: 400px; /* Example width for .textbox on smaller screens */
+        width: 1px;
+        height: 1px;
     }
 
-    /* Set widths for other divs */
     .center-text {
-        width: 80px; /* Example width for .center-text on smaller screens */
+        width: 1px;
     }
 
     .btn, .btn1, .btn2 {
-        width: 80px; /* Example width for .btn, .btn1, .btn2 on smaller screens */
+        width: 1px;
     }
-
-    /* Add more specific styles for other elements as needed */
 }
